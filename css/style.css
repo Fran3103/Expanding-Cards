@@ -1,0 +1,49 @@
+@import url(/css/Sass/cssreload.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+body {
+  font-family: "Roboto Condensed";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 600px;
+  gap: 15px;
+}
+.container .img {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 0.5;
+  position: relative;
+  transition: all 700ms ease-in;
+}
+.container .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.container .img h3 {
+  color: white;
+  text-shadow: 0 0 10px #0B50A7;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 2rem;
+  opacity: 0;
+}
+.container .activa {
+  flex: 3;
+}
+.container .activa h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}/*# sourceMappingURL=style.css.map */
